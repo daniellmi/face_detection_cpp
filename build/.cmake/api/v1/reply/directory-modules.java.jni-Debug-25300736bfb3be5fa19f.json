@@ -1,0 +1,54 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_target"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"modules/java/jni/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1241,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "java",
+			"destination" : "share/java/opencv4",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"lib/libopencv_java4120.so"
+			],
+			"targetId" : "opencv_java::@028d4361fc086669ca15",
+			"targetIndex" : 27,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/java/jni",
+		"source" : "modules/java/jni"
+	}
+}
